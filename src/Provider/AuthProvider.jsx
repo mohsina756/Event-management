@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useEffect, useState } from "react";
 import { createContext } from "react";
 import app from "../Firebase/Firebase.config"

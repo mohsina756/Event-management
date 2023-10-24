@@ -13,7 +13,7 @@ const EventDetails = () => {
           const item = data?.find((details)=>details.id == id);
           setDetails(item);
         }
-    },[id])
+    },[data, id])
     console.log(details);
 
     return (

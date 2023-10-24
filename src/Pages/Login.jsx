@@ -6,9 +6,10 @@ import { toast } from "react-toastify";
 const Login = () => {
     const handleLogin = e =>{
         e.preventDefault();
-        console.log(e.currentTarget)
+        // console.log(e.currentTarget)
         const form = new FormData(e.currentTarget)
-        console.log(form.get('password'));
+        const email = form.get('email')
+        const password = form.get('password')
         signIn(email, password)
         .then(result => {
           toast(`${result.user}Logged In Successfully !`)
@@ -17,13 +18,13 @@ const Login = () => {
           console.error(error)
         })
     }
-  const { handleGoogleLogin } = useContext(AuthContext);
+  const { signIn, handleGoogleLogin } = useContext(AuthContext);
   const location = useLocation()?.state?.path || "/";
   const navigate = useNavigate();
 //   console.log(location);
   const googleLoginHandler = () => {
     handleGoogleLogin().then((user) => {
-      toast("Successfully Logged In and Registered")
+      toast(`${user?.userName}Successfully Logged In and Registered`)
       navigate(location);
     });
   };
