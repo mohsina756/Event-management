@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Corporate Event Planning",
+    "image_url": "https://i.ibb.co/PFV8sDc/business-people-office-workplace-interaction-conversation-teamwork-concept.jpg",
+    "price": "$ 2,500",
+    "description": "Comprehensive corporate event planning, including venue selection, theme design, and vendor coordination."
+  },
+  {
+    "id": 2,
+    "name": "Conference and Seminar Management",
+    "image_url": "https://i.ibb.co/KhFSK2V/charlesdeluvio-wn7d-Oz-Uh3-Rs-unsplash.jpg",
+    "price": "$ 3,000",
+    "description": "Expertise in organizing conferences and seminars, covering scheduling and audiovisual setups."
+  },
+  {
+    "id": 3,
+    "name": "Trade Show and Expo Coordination",
+    "image_url": "https://i.ibb.co/XpjnTys/evangeline-shaw-nw-LTVwb7-Db-U-unsplash.jpg",
+    "price": "$ 3,500",
+    "description": "Managing trade shows and expos, from booth design to attendee engagement strategies."
+  },
+  {
+    "id": 4,
+    "name": "Team Building Workshops",
+    "image_url": "https://i.ibb.co/FwKDpCY/evangeline-shaw-x-Rl-I-L-kvrw-unsplash.jpg",
+    "price": "$ 1,500",
+    "description": "Engaging team-building workshops and activities to boost team morale and productivity."
+  },
+  {
+    "id": 5,
+    "name": "Product Launch Services",
+    "image_url": "https://i.ibb.co/CsByzFk/product-school-n-Ov-Ia-x-tfo-unsplash.jpg",
+    "price": "$ 4,000",
+    "description": "Specialized services for creating unforgettable product launch experiences."
+  },
+  {
+    "id": 6,
+    "name": "Corporate Meeting Coordination",
+    "image_url": "https://i.ibb.co/XLLQTzQ/yes.jpg",
+    "price": "$ 1,000",
+    "description": "Efficient coordination for corporate meetings, handling logistics and ensuring a professional atmosphere."
+  }
+]
